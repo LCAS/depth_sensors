@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>kinect2_description</name>
+    <version>0.0.0</version>
+    <description>
+        Description of Kinect V2 sensor on a stand.
+        This package contains the URDF and meshes describing the Kinect V2.
+    </description>
+
+    <maintainer email="mfernandezcarmona@lincoln.ac.uk">
+        Manuel Fernandez
+    </maintainer>
+
+    <license>BSD</license>
+
+    <author>Marvin Ludersdorfer</author>
+   
+    <buildtool_depend>catkin</buildtool_depend>
+
+</package>
