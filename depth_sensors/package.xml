@@ -15,7 +15,8 @@
     <author>Marvin Ludersdorfer</author>
 
     <buildtool_depend>catkin</buildtool_depend>
-
+    
+    <run_depend>kinect2_description</run_depend>
     <run_depend>kinect_control</run_depend>
     <run_depend>kinect_description</run_depend>
     <run_depend>senz3d_description</run_depend>
