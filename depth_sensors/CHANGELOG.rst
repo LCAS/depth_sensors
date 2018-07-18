@@ -2,8 +2,8 @@
 Changelog for package depth_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2018-07-18)
+------------------
 * Maintainer updated
 * simple camera model for pose-to-pixel-space projection debugging
 * moved Kinect V2 control into its own package
