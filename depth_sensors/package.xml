@@ -6,8 +6,8 @@
         URDF and meshes describing the Kinect V2 and Senz3d depth sensors.
     </description>
 
-    <maintainer email="ludersdorfer@fortiss.org">
-        Marvin Ludersdorfer
+    <maintainer email="mfernandezcarmona@lincoln.ac.uk">
+        Manuel Fernandez
     </maintainer>
     <license>BSD</license>
     <url type="repository">https://github.com/brml/depth_sensors</url>
