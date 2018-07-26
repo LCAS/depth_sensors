@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>asus_description</name>
+    <version>0.0.1</version>
+    <description>
+        Description of Asus xtion pro live sensor.        
+    </description>
+
+    <maintainer email="mfernandezcarmona@lincoln.ac.uk">
+        Manuel Fernandez
+    </maintainer>
+
+    <license>BSD</license>
+
+    <author>Manuel Fernandez</author>
+   
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>turtlebot_description</run_depend>
+    <run_depend>kinect_control</run_depend>
+    
+</package>
