@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>kinect_description</name>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <description>
         Description of Kinect V2 sensor on a stand.
         This package contains the URDF and meshes describing the Kinect V2
