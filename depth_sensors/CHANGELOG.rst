@@ -2,6 +2,9 @@
 Changelog for package depth_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.2 (2018-08-22)
 ------------------
 * Update package.xml

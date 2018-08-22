@@ -2,6 +2,12 @@
 Changelog for package asus_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update CMakeLists.txt
+  removed mesh directory from install. Asus mesh is taken from turtlebot_description package
+* Contributors: Manuel Fernandez-Carmona
+
 0.0.2 (2018-08-22)
 ------------------
 * Included asus
