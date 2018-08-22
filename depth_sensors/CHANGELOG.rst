@@ -2,6 +2,11 @@
 Changelog for package depth_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update package.xml
+* Contributors: Manuel Fernandez-Carmona
+
 0.0.1 (2018-07-18)
 ------------------
 * Maintainer updated

@@ -2,6 +2,9 @@
 Changelog for package kinect_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.1 (2018-07-18)
 ------------------
 * mirroring Kinect V2 topic names (kinect2_iai ros package)
