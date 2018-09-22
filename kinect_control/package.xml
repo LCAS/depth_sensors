@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>kinect_control</name>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <description>
         Publishes the state information for the Kinect stand.
     </description>
