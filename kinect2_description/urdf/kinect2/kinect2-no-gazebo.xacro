@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<robot name="kinect2_sensor-ng" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="kinect2_sensor-ng" params="name parent cam_px cam_py cam_pz cam_or cam_op cam_oy">
+        
+        <link name="${name}_link">
+            <visual>
+                <geometry>
+                    <mesh filename="package://kinect2_description/meshes/sensors/kinect2.dae"/>
+                </geometry>
+                <origin xyz="0.02 0 0" rpy="0 0 3.141592"/>
+            </visual>
+
+            <collision>
+                <geometry>
+                    <box size=".1 .25 .06"/>
+                </geometry>
+                <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
+            </collision>
+
+            <inertial>
+                <mass value="1e-5" />
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+            </inertial>
+        </link>
+
+        <joint name="${name}_joint" type="fixed">
+            <parent link="${parent}"/>
+            <child link="${name}_link"/>
+            <origin xyz="${cam_px} ${cam_py} ${cam_pz}" rpy="${cam_or} ${cam_op} ${cam_oy}"/>
+        </joint>
+
+
+        <link name="${name}_rgb_optical_frame"/>
+
+        <joint name="${name}_rgb_joint" type="fixed">
+            <parent link="${name}_link"/>
+            <child link="${name}_rgb_optical_frame"/>
+            <origin xyz="0 0.0125 0.016" rpy="-1.57 0 -1.57"/>
+        </joint>
+        
+
+        <link name="${name}_depth_optical_frame"/>
+
+        <joint name="${name}_depth_joint" type="fixed">
+            <parent link="${name}_link"/>
+            <child link="${name}_depth_optical_frame"/>
+            <origin xyz="0 -0.0125 0.016" rpy="-1.57 0 -1.57"/>
+        </joint>
+
+        
+
+    </xacro:macro>
+</robot>
