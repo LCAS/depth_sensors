@@ -2,6 +2,9 @@
 Changelog for package senz3d_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.3 (2018-08-22)
 ------------------
 

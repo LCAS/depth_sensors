@@ -2,6 +2,9 @@
 Changelog for package asus_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.3 (2018-08-22)
 ------------------
 * Update CMakeLists.txt
