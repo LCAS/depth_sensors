@@ -9,7 +9,7 @@
     <param if="$(arg load_camera_description)"
            name="robot_description"
            command="$(find xacro)/xacro.py
-                    --inorder $(find simple_description)/urdf/simple.urdf.xacro"/>
+                    $(find simple_description)/urdf/simple.urdf.xacro"/>
 
     <!-- Publish a static transform between the world and the base of the kinect -->
     <node pkg="tf2_ros" type="static_transform_publisher"

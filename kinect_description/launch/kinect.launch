@@ -9,7 +9,7 @@
     <param if="$(arg load_kinect_description)"
            name="robot_description"
            command="$(find xacro)/xacro.py
-                    --inorder $(find kinect_description)/urdf/kinect_stand.urdf.xacro
+                    $(find kinect_description)/urdf/kinect_stand.urdf.xacro
                     gazebo:=true"/>
 
     <!-- Publish a static transform between the world and the base of the kinect -->
