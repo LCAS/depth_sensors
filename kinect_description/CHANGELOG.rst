@@ -2,6 +2,11 @@
 Changelog for package kinect_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Small fix for xacro
+* Contributors: Riccardo
+
 0.0.4 (2018-09-22)
 ------------------
 

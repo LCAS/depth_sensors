@@ -2,6 +2,9 @@
 Changelog for package kinect_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.4 (2018-09-22)
 ------------------
 
