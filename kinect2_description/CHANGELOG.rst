@@ -2,8 +2,8 @@
 Changelog for package kinect2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2020-04-02)
+------------------
 * added pi constant
 * Contributors: Manuel Fernandez-Carmona
 

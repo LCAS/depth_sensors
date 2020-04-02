@@ -2,8 +2,8 @@
 Changelog for package kinect_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2020-04-02)
+------------------
 * Small fix for xacro
 * Contributors: Riccardo
 

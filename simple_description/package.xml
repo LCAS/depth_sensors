@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>simple_description</name>
-    <version>0.0.4</version>
+    <version>0.1.0</version>
     <description>
         Description of a very simple color camera for debugging purposes.
         This package contains the URDF describing a simple RGB camera.

@@ -2,8 +2,8 @@
 Changelog for package asus_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2020-04-02)
+------------------
 * Removed dep from Turtlebot and added meshes here
 * Contributors: Riccardo
 
